@@ -9,3 +9,84 @@ body {
     max-width: 960px;
     width: 100%;
 }
+
+:root{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,'Helvetica Neue',Arial, 'Noto Sans', sans-serif;
+    font-size: 18px;
+}
+
+
+a{ 
+    color: #6b7280;
+    text-decoration: none;
+}
+a:hover{
+    color: #5A67D8;
+}
+
+
+header{
+    display: flex;
+    background-color: white;
+    text-size-adjust: 18px;
+}
+
+
+img{
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.overview-hero{
+    background-color: #E2E8F0;
+}
+
+
+.learn-about h2{
+    text-size-adjust: 24px;
+    color:#48BB78;
+}
+.learn-about{
+    border-color: #E2E8F0;
+    border-radius: 5px;
+    box-shadow: #c8ced5;
+}
+.learn-about h3{
+    color: #48BB78;
+    text-size-adjust: 21px;
+}
+
+
+.testing{
+    background-color: #4A5568;
+    color: white;
+    border-radius: 5px;
+}
+.testing a{
+    background-color: #48BB78 ;
+    color: white;
+    border-radius: 5px;
+}
+
+
+.stories img{
+    border-radius: 50%; 
+}
+
+
+.newsletter{
+    background-color: #48BB78;
+    color: white;
+}
+.newsletter button{
+    background-color: #5A67D8;
+}
+
+footer{
+    background-color: #4A5568;
+    color: white;
+}
