@@ -19,6 +19,7 @@ body {
 a{ 
     color: #6b7280;
     text-decoration: none;
+    font-weight: bold;
 }
 a:hover{
     color: #5A67D8;
@@ -29,6 +30,20 @@ header{
     display: flex;
     background-color: white;
     text-size-adjust: 18px;
+    padding-bottom: 10px;
+}
+header h1{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 18px;
+}
+header li{
+    list-style-type: none;
+    display: inline-block;
+    text-align: right;
+    float: right;
+    padding: 0 10px 0 10px;
 }
 
 
@@ -43,6 +58,12 @@ img{
 
 .overview-hero{
     background-color: #E2E8F0;
+    padding: 80px;
+}
+.overview-hero img{
+    float: left;
+    align-self: auto;
+    align-items: center;
 }
 
 
@@ -51,6 +72,7 @@ img{
     color:#48BB78;
 }
 .learn-about{
+    padding-top: 10px;
     border-color: #E2E8F0;
     border-radius: 5px;
     box-shadow: #c8ced5;
