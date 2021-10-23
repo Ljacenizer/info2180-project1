@@ -42,7 +42,7 @@ header h1{
 header li{
     list-style-type: none;
     display: inline;
-    margin-right: .7em;
+    margin-right: 1em;
 }
 
 
@@ -55,30 +55,38 @@ img{
 }
 
 
-.overview-hero{
+.overview-hero div.container{
     background-color: #E2E8F0;
-    padding: 80px;
+    display: grid;
+    padding:2em 4em 2em 4em;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 2fr;
+    grid-column-gap: 5em;
 }
-.overview-hero img{
-    float: left;
-    align-self: auto;
-    align-items: center;
-}
-
 
 .learn-about h2{
     text-size-adjust: 24px;
     color:#48BB78;
 }
-.learn-about{
+.learn-about div.cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 1em;
+}
+.learn-about div.cards > div.card{
     padding-top: 10px;
     border-color: #E2E8F0;
     border-radius: 5px;
-    box-shadow: #c8ced5;
+    box-shadow:0.25em 0.25em .25em .25em #d9e0e7;
 }
 .learn-about h3{
     color: #48BB78;
     text-size-adjust: 21px;
+}
+.learn-about p{
+    font-weight: bold;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 
