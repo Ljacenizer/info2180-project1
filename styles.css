@@ -16,6 +16,12 @@ body {
     padding-left: 2em;
     padding-right: 2em;
 }
+body {
+    margin: 0;
+    font-size: 16px;
+    display: flex;
+    flex-flow: column wrap;
+}
 
 
 a{ 
@@ -54,9 +60,10 @@ img{
     margin-right: auto;
 }
 
-
-.overview-hero div.container{
+.overview-hero{
     background-color: #E2E8F0;
+}
+.overview-hero div.container{
     display: grid;
     padding:2em 4em 2em 4em;
     grid-template-rows: 1fr;
@@ -118,16 +125,53 @@ img{
 
 
 .stories img{
-    border-radius: 50%; 
+    border-radius: 50%;
+    padding-right: 2.5em;
 }
-
+.stories h2{
+    color: #5A67D8;
+    text-decoration: none;
+}
+.stories article{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+}
 
 .newsletter{
     background-color: #48BB78;
     color: white;
+    padding-top: 2em;
+}
+.newsletter div.container{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    width: 30em;
+    padding: 1em 2em 3.5em 2em;
+    flex-flow: column wrap;
+}
+.newsletter form{
+    display: flex;
+    align-self: flex-start;
+    flex-flow: row nowrap;
+}
+.newsletter form input{
+    border: none;
+    border-radius: 0.4em;
+    width: 21em;
+    height: 3em;
+    padding-left: 1em;
 }
 .newsletter button{
     background-color: #5A67D8;
+    color:white;
+    border-radius: 0.4em;
+    border : none;
+    margin-left: 5px;
+    width: 10em;
 }
 
 footer{
