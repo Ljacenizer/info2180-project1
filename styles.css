@@ -93,12 +93,27 @@ img{
 .testing{
     background-color: #4A5568;
     color: white;
-    border-radius: 5px;
+    margin-top: 3em;
+    padding-top: 3em;
+    padding-bottom: 5em;
+}
+.testing div.container{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 2fr 1fr;
+    grid-column-gap: 5em;
+    grid-template-rows: 1fr;
+}
+.testing p{
+    padding-right: 4em;
 }
 .testing a{
     background-color: #48BB78 ;
     color: white;
     border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: normal;
+    padding: 0.5em 1em 0.5em 1em;
 }
 
 
